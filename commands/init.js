@@ -65,7 +65,7 @@ function downloadTemplate(url, projectName) {
 
     // 成功完成操作
     console.log(chalk.green(symbols.success), chalk.green('Generation completed!'));
-    console.log('\n To get started');
+    // console.log('\n To get started');
     console.log(`\n    cd ${projectName} \n`);
 
     const src = path.join(gitCloneDir, gitSparseDir)
